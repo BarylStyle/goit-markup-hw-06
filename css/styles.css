@@ -752,3 +752,182 @@ img {
     transform: translateY(100%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.footer-form {
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-white);
+    margin-left: 80px;
+}
+.form-p {
+    margin-bottom: 16px;
+}
+.form {
+    display: flex;
+    gap: 24px;
+}
+.form-label-input {
+    gap: 24px;
+    width: 264px;
+    height: 40px;
+    border: 1px solid var(--color-white);
+    background-color: transparent;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    color: var(--color-white);
+}
+.form-label-input placeholder {
+    color: var(--color-white);
+}
+.footer-submit-button {
+    height: 40px;
+    min-width: 165px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 24px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    color: var(--color-white);
+    background-color: var(--iris);
+    border: none;
+    border-radius: 4px;
+}
+.form-label {
+    display: flex;
+    gap: 24px;
+}
+.form-button-svg {
+    margin-left: 16px;
+}
+.modal-p {
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+    color: var(--first-color-text);
+}
+.div-form{
+    margin-bottom: 8px;
+}
+.label-user {
+    margin-bottom: 4px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: var(--colorgrey);
+    display: block;
+}
+.modal-content{
+    position: relative;
+}
+.input{
+    width: 100%;
+        height: 40px;
+        border-radius: 4px;
+        border: 1px solid rgba(46, 47, 66, 0.4);
+        background-color: transparent;
+        transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        outline: transparent;
+        margin-bottom: 8px;
+        display: flex;
+        padding-left: 38px;
+}
+.input:focus {
+    border-color: var(--iris);
+}
+.modal-content:focus-within{
+    fill: var(--iris);
+}
+.modal-icon{
+    position: absolute;
+        left: 16px;
+        top: 50%;
+        transform: translateY(-50%);
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.textarea{
+    width: 100%;
+        height: 120px;
+        border-radius: 4px;
+        border: 1px solid rgba(46, 47, 66, 0.4);
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 1.17;
+        letter-spacing: 0.04em;
+        color: rgba(46, 47, 66, 0.4);
+        padding: 8px 16px;
+        resize: none;
+        background-color: transparent;
+        outline: transparent;
+        transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.textarea:focus {
+    border-color: var(--iris);
+}
+.conditions {
+    font-size: 12px;
+    display: block;
+    font-weight: 400;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: var(--colorgrey);
+    gap: 8px;
+}
+.checbox-span{
+    width: 16px;
+        height: 16px;
+        border: 1px solid rgba(46, 47, 66, 0.4);
+        border-radius: 2px;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+            border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+            fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        fill: transparent;
+        margin-right: 8px;
+}
+.checkbox {
+    margin-bottom: 24px;
+}
+.privacy-policy {
+    color: var(--iris);
+}
+.send-btn {
+    min-width: 169px;
+    height: 56px;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    color: var(--color-white);
+    background-color: var(--iris);
+    border: none;
+    border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin: 0 auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.input-checkbox:checked+.conditions .checbox-span {
+    background-color: var(--kolo4);
+    border: none;
+    fill: var(--cloud);
+}
