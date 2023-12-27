@@ -932,3 +932,6 @@ img {
     border: none;
     fill: var(--cloud);
 }
+.comment-label{
+    margin-bottom: 16px;
+}
