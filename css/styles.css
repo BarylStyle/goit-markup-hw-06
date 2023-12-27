@@ -691,6 +691,7 @@ img {
 }
 
 .modal {
+    padding: 72px 24px 24px 24px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -827,7 +828,7 @@ img {
     font-weight: 400;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    color: var(--colorgrey);
+    color: var(--kolor6);
     display: block;
 }
 .modal-content{
