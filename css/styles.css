@@ -847,6 +847,8 @@ img {
         margin-bottom: 8px;
         display: flex;
         padding-left: 38px;
+        font-size: 12px;
+            color: rgba(46, 47, 66, 0.4);
 }
 .input:focus {
     border-color: var(--iris);
@@ -928,6 +930,10 @@ img {
     justify-content: center;
     align-items: center;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.send-btn:hover{
+    background-color: var(--Ocean);
+        color: var(--color-white);
 }
 .input-checkbox:checked+.conditions .checbox-span {
     background-color: var(--kolo4);
